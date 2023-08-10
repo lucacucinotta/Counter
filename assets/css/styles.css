@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9d8e4;
+}
+body .banner {
+  background-color: #343f71;
+}
+body .banner .title {
+  color: white;
+}
+body .banner .website {
+  max-width: 30px;
+}
+body .banner .github {
+  max-width: 30px;
+}
+body .banner .linkedin {
+  max-width: 30px;
+}
+body #parentContainer {
+  height: 85%;
+}
