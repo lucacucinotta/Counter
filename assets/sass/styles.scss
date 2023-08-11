@@ -1,4 +1,5 @@
 @import "./modules/config";
+
 *{
     padding:0;
     margin:0;
@@ -7,11 +8,9 @@
 
 body{
     background-color:$primary-color;
+    color:white;
     .banner{
         background-color: $tertiary-color;
-        .title{
-            color:white;
-        }
         .website{
             max-width: 30px;
         }
@@ -35,6 +34,7 @@ body{
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
                 border-bottom:4px solid $primary-color;
+                color:black;
                 #displayCounter{
                     height:150px;
                     width: 70%;

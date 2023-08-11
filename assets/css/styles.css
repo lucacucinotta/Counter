@@ -6,12 +6,10 @@
 
 body {
   background-color: #e9d8e4;
+  color: white;
 }
 body .banner {
   background-color: #343f71;
-}
-body .banner .title {
-  color: white;
 }
 body .banner .website {
   max-width: 30px;
@@ -37,6 +35,7 @@ body #parentContainer #counterCard #divDisplayCounter {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom: 4px solid #e9d8e4;
+  color: black;
 }
 body #parentContainer #counterCard #divDisplayCounter #displayCounter {
   height: 150px;
@@ -82,8 +81,6 @@ body #parentContainer #counterCard #buttonDiv #auto::after {
   font-size: 10px;
 }
 body #parentContainer #counterCard #buttonDiv .functionButton {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   width: 15%;
   background-color: #343f71;
