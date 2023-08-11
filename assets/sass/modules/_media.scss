@@ -1,0 +1,18 @@
+@media only screen and (max-width:350px){
+    .operationButton{
+        font-size: 30px;
+    }
+    .functionButton{
+        width: fit-content;
+    }
+}
+
+@media only screen and (min-width:350px){
+    .operationButton{
+      font-size:50px;
+    }
+    .functionButton{
+      font-size: 20px;
+    }
+}
+  

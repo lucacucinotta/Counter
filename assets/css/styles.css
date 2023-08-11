@@ -25,3 +25,92 @@ body .banner .linkedin {
 body #parentContainer {
   height: 85%;
 }
+body #parentContainer #counterCard {
+  width: 800px;
+  background-color: #fbc40e;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.7);
+}
+body #parentContainer #counterCard #divDisplayCounter {
+  height: 40%;
+  background-color: #343f71;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 4px solid #e9d8e4;
+}
+body #parentContainer #counterCard #divDisplayCounter #displayCounter {
+  height: 150px;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+body #parentContainer #counterCard #buttonDiv {
+  height: 60%;
+  max-width: 800px;
+  background: #fbc40e;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+body #parentContainer #counterCard #buttonDiv .operationButton {
+  width: 35%;
+  height: 120px;
+  background-color: #343f71;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.7);
+}
+body #parentContainer #counterCard #buttonDiv .operationButton:active {
+  border-right: 1px solid #e9d8e4;
+  border-bottom: 1px solid #e9d8e4;
+}
+body #parentContainer #counterCard #buttonDiv #buttonPlus100::after {
+  content: "↑";
+  font-size: 15px;
+}
+body #parentContainer #counterCard #buttonDiv #buttonLess100::after {
+  content: "↓";
+  font-size: 15px;
+}
+body #parentContainer #counterCard #buttonDiv #reset::after {
+  content: "canc";
+  font-size: 10px;
+}
+body #parentContainer #counterCard #buttonDiv #auto::after {
+  content: "A";
+  font-size: 10px;
+}
+body #parentContainer #counterCard #buttonDiv .functionButton {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 15%;
+  background-color: #343f71;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.7);
+}
+body #parentContainer #counterCard #buttonDiv .functionButton:active {
+  border-right: 1px solid #e9d8e4;
+  border-bottom: 1px solid #e9d8e4;
+}
+
+@media only screen and (max-width: 350px) {
+  .operationButton {
+    font-size: 30px;
+  }
+  .functionButton {
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .operationButton {
+    font-size: 50px;
+  }
+  .functionButton {
+    font-size: 20px;
+  }
+}
