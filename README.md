@@ -1,6 +1,9 @@
 <div align="center"><img src="assets/img/README/logo.png" width="150px"></div>
 <h1 align="center">JS Counter</h1>
 <p align="center">A simple JS Counter realized by Luca Cucinotta.
+<br>
+Click here to <a href="https://lucacucinotta.github.io/Counter"><strong>Live Demo</strong></a>
+</p>
 
 ## Table of contents
 
@@ -8,7 +11,7 @@
   - [Structure](#structure)
   - [Technologies used](#technologies-used)
 - [Usage](#usage)
-- [Responsive](#responsive)
+- [Responsiveness](#responsiveness)
 - [Author](#author)
 
 ### Introduction to Project
@@ -55,8 +58,8 @@ You can also use the keyboard to use the counter :
 
 Thanks to the Bootstrap Container Layout and the use of Media Queries, I've manage to take care of the Responsiveness aspect of the counter and of the website, which adapts perfectly to the change in the size of the device on which it is displayed.
 
-![desktop image](assets/README/desktop.png)
-<div align="center"><img src="assets/README/mobile.png"></div>
+![desktop image](assets/img/README/desktop.png)
+<div align="center"><img src="assets/img/README/mobile.png"></div>
 
 ### Author
 
