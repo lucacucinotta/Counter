@@ -10,6 +10,7 @@ body {
   background-color: #e9d8e4;
   font-family: "Red Hat Display", sans-serif;
   color: white;
+  touch-action: manipulation;
 }
 body .banner {
   background-color: #343f71;

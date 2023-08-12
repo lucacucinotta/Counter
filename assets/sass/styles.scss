@@ -12,6 +12,7 @@ body{
     background-color:$primary-color;
     font-family: "Red Hat Display", sans-serif;
     color:white;
+    touch-action: manipulation;
     .banner{
         background-color: $tertiary-color;
         .website{
