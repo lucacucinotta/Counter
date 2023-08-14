@@ -15,13 +15,7 @@ body{
     touch-action: manipulation;
     .banner{
         background-color: $tertiary-color;
-        .website{
-            max-width: 30px;
-        }
-        .github{
-            max-width: 30px;
-        }
-        .linkedin{
+        .svg-icon{
             max-width: 30px;
         }
     }
